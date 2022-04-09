@@ -9,13 +9,16 @@ body{
 font-family: "Roboto", Tahoma, sans-serif;
 color: #212121;
 background-color: #E5E5E5;}
+
 .list{
     list-style: none;
 }
+
 a{
  text-decoration: none;
  color: inherit; } 
 }
+
 /* не пойму почему я вижу на страничке этот заголовок */
 .visually-hidden {
   clip: rect(1px, 1px, 1px, 1px);
@@ -26,10 +29,6 @@ a{
   overflow: hidden;
   padding: 0;
   position: absolute;
-}
-
-.top-text{
-    
 }
 
 /* -----------HEADER------------*/
@@ -201,3 +200,7 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
+/* не пойму почему не раб наведение */
+.footer-contacts-list:hover,
+.footer-contacts-list:focus{
+    color: --focus-hover-color;}
