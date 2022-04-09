@@ -16,17 +16,16 @@ a{
  text-decoration: none;
  color: inherit; } 
 }
+/* не пойму почему я вижу на страничке этот заголовок */
 .visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
+  clip: rect(1px, 1px, 1px, 1px);
   clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
   margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
 }
 
 /* -----------HEADER------------*/
@@ -57,8 +56,9 @@ letter-spacing: 0.02em;
   color: var(--focus-hover-color);
 }
 
-.contacts-list-tm {
-    color: var(--contact-list-color);}
+.contacts-list {
+    color: var(--contact-list-color);
+}
 .contacts-list :hover,
 .contacts-list :focus{
   color: var(--focus-hover-color);
@@ -122,6 +122,10 @@ letter-spacing: 0.03em;
 color: var(--main-text-h3-color);}
 
 /* -----------PORTFOLIO------------*/
+.portfolio-list{
+    background-color: #FFFFFF;
+}
+
 .btn-main{
 font-weight: 500;
 font-size: 16px;
