@@ -3,8 +3,6 @@
     --contact-list-color: #757575; 
     --main-text-h3-color: #757575;
     --second-background: #2F303A;
-
-
 }
 
 body{
@@ -30,6 +28,7 @@ a{
   clip-path: inset(50%);
   margin: -1px;
 }
+
 /* -----------HEADER------------*/
 .header-logo{
 font-family: 'Raleway';
@@ -120,8 +119,50 @@ letter-spacing: 0.03em;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
+color: var(--main-text-h3-color);}
+
+/* -----------PORTFOLIO------------*/
+.btn-main{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+background-color: #2196F3;
+}
+.btn{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+background-color: #F5F4FA;
+}
+.btn:hover,
+.btn:focus{
+  color: var(--focus-hover-color);
+}
+button{
+    border-style: none;
+}
+button {
+    cursor: pointer;
+}
+
+.title-portfolio{
+font-weight: 700;
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+}
+.text-category-portfolio{
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
 color: var(--main-text-h3-color);
 }
+
+
+
 /* -----------FOOTER------------*/
 .footer{
     background-color: var(--second-background);
