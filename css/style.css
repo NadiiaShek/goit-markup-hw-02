@@ -1,14 +1,54 @@
 body{
-    font-family: "Roboto", Tahoma, sans-serif;
-}
+font-family: "Roboto", Tahoma, sans-serif;
+color: #212121;
+background-color: #E5E5E5;}
 
-.link{
-    text-decoration: none;
-}
+
 .list{
     list-style: none;
 }
+
+/* -----------HEADER------------*/
 .header{
     background-color: #FFFFFF;
 }
 
+.header-navigation-list{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+/* пока не получается сделать фокус и наведение */
+.header-item{
+    color: #212121;
+} 
+.header-item .link:hover,
+.header-item .link:focus {
+  color: #2196F3;
+}
+
+.contacts-header-list{
+    color: #757575;
+}
+
+
+/* -----------HERO------------*/
+.hero{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2F303A;
+}
+.btn-about-service{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2196F3;
+}
+/* -----------MAIN------------*/
