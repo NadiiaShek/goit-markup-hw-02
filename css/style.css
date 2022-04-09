@@ -1,3 +1,12 @@
+:root{
+    --focus-hover-color: #2196F3;
+    --contact-list-color: #757575; 
+    --main-text-h3-color: #757575;
+    --second-background: #2F303A;
+
+
+}
+
 body{
 font-family: "Roboto", Tahoma, sans-serif;
 color: #212121;
@@ -21,7 +30,6 @@ a{
   clip-path: inset(50%);
   margin: -1px;
 }
-
 /* -----------HEADER------------*/
 .header-logo{
 font-family: 'Raleway';
@@ -47,15 +55,14 @@ letter-spacing: 0.02em;
 
 .header-item :hover,
 .header-item :focus{
-  color: #2196F3;
+  color: var(--focus-hover-color);
 }
-/* не получается отобразить текст серым (
-     может потому что по умолчанию цвет посещенной свылки фиолетовый? */
-.contacts-list-grey {
-    color: #757575;}
+
+.contacts-list-tm {
+    color: var(--contact-list-color);}
 .contacts-list :hover,
 .contacts-list :focus{
-  color: #2196F3;
+  color: var(--focus-hover-color);
 }
 
 
@@ -66,7 +73,7 @@ font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
 color: #FFFFFF;
-background-color: #2F303A;
+background-color: var(--second-background);
 }
 .btn-about-service{
 font-weight: 700;
@@ -78,7 +85,7 @@ background-color: #2196F3;
 }
 .btn-about-service :hover,
 .btn-about-service :focus{
-  color: #2196F3;
+  color: var(--focus-hover-color);
 }
 /* -----------MAIN------------*/
 .about-our-benefits {
@@ -91,7 +98,11 @@ letter-spacing: 0.03em;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--main-text-h3-color);
+}
+
+.team{
+    background-color: #F5F4FA;
 }
 .about-second-title{
 font-weight: 700;
@@ -109,11 +120,11 @@ letter-spacing: 0.03em;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--main-text-h3-color);
 }
 /* -----------FOOTER------------*/
 .footer{
-    background-color: #2F303A;
+    background-color: var(--second-background);
 }
 
 .logo-footer{
