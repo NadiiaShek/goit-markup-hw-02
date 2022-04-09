@@ -2,7 +2,13 @@ body{
     font-family: "Roboto", Tahoma, sans-serif;
 }
 
-
-
-
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+.header{
+    background-color: #FFFFFF;
+}
 
