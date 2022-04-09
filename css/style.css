@@ -7,30 +7,47 @@ background-color: #E5E5E5;}
 .list{
     list-style: none;
 }
+a{
+ text-decoration: none;
+}
 
 /* -----------HEADER------------*/
+.header-logo{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+color:  #000000;
+}
+.span{
+    color: #2196F3;
+}
 .header{
+
     background-color: #FFFFFF;
 }
 
-.header-navigation-list{
+.header-navigation{
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
 }
-/* пока не получается сделать фокус и наведение */
+
 .header-item{
     color: #212121;
-} 
-.header-item .link:hover,
-.header-item .link:focus {
+    } 
+.header-item :hover,
+.header-item :focus{
   color: #2196F3;
 }
 
-.contacts-header-list{
-    color: #757575;
+#contacts-header-list{
+    color: #757575;}
+.contacts-header-list :hover,
+.contacts-header-list :focus{
+  color: #2196F3;
 }
 
 
@@ -50,5 +67,9 @@ line-height: 1.88;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 background-color: #2196F3;
+}
+.btn-about-service :hover,
+.btn-about-service :focus{
+  color: #2196F3;
 }
 /* -----------MAIN------------*/
