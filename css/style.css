@@ -78,6 +78,7 @@ color: #FFFFFF;
 background-color: var(--second-background);
 }
 .btn-about-service{
+font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -85,8 +86,8 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
 background-color: #2196F3;
 }
-.btn-about-service :hover,
-.btn-about-service :focus{
+.btn-about-service:hover,
+.btn-about-service:focus{
   color: var(--focus-hover-color);
 }
 /* -----------MAIN------------*/
@@ -129,24 +130,20 @@ color: var(--main-text-h3-color);}
     background-color: #FFFFFF;
 }
 
-.btn-main{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-background-color: #2196F3;
-}
 .btn{
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
+color: #212121;
 background-color: #F5F4FA;
 }
+
 .btn:hover,
 .btn:focus{
-  color: var(--focus-hover-color);
+  color: #FFFFFF;
+  background-color: var(--focus-hover-color)
 }
 button{
     border-style: none;
@@ -201,7 +198,7 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 /* не пойму почему не раб наведение */
-.footer-contacts-list:hover,
-.footer-contacts-list:focus{
+.footer-contacts-list :hover,
+.footer-contacts-list :focus{
     color: --focus-hover-color;}
     
