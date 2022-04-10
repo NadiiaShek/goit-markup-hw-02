@@ -20,7 +20,7 @@ a{
 }
 
 /* не пойму почему я вижу на страничке этот заголовок */
-.visually-hidden {
+.visually-hidden{
   clip: rect(1px, 1px, 1px, 1px);
   clip-path: inset(50%);
   height: 1px;
@@ -30,9 +30,9 @@ a{
   padding: 0;
   position: absolute;
 }
-.test{
-    background-color: green;
- clip: rect(1px, 1px, 1px, 1px);
+
+.test {
+  clip: rect(1px, 1px, 1px, 1px);
   clip-path: inset(50%);
   height: 1px;
   width: 1px;
@@ -41,7 +41,6 @@ a{
   padding: 0;
   position: absolute;
 }
-
 
 
 /* -----------HEADER------------*/
