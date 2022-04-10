@@ -31,6 +31,11 @@ a{
   position: absolute;
 }
 
+/* .header-item :current
+{
+    color: darkblue;
+} */
+
 /* -----------HEADER------------*/
 .header-logo{
 font-family: 'Raleway', Tahoma, sans-serif;
@@ -197,8 +202,10 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
-/* не пойму почему не раб наведение */
+
 .footer-contacts-list :hover,
-.footer-contacts-list :focus{
-    color: --focus-hover-color;}
+.footer-contacts-list :focus
+{
+    color: var(--focus-hover-color);
+}
     
