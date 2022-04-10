@@ -33,7 +33,7 @@ a{
 
 /* -----------HEADER------------*/
 .header-logo{
-font-family: 'Raleway';
+font-family: 'Raleway', Tahoma, sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.9;
@@ -173,7 +173,7 @@ color: var(--main-text-h3-color);
 }
 
 .logo-footer{
-font-family: 'Raleway';
+font-family: 'Raleway', Tahoma, sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.9;
