@@ -30,11 +30,10 @@ a{
   padding: 0;
   position: absolute;
 }
+.test{
+    background-color: green;
+}
 
-/* .header-item :current
-{
-    color: darkblue;
-} */
 
 /* -----------HEADER------------*/
 .header-logo{
