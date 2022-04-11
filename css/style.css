@@ -3,7 +3,7 @@
   --contact-list-color: #757575;
   --main-text-color: #757575;
   --second-text-color: #ffffff;
-  --third-text-color: #212121;
+  --body-text-color: #212121;
   --second-background: #2f303a;
   --logo-part-color: #2196f3;
   --body-background-color: #ffffff;
@@ -11,12 +11,12 @@
   --btn-text-color: #ffffff;
   --btn-background-color: #2196f3;
   --btn-portfolio-background-color: #f5f4fa;
-  --current-color: #ff0000;
+  --current-color: #2196f3;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #212121;
+  color: var(--body-text-color);
   background-color: var(--body-background-color);
   font-size: 14px;
 }
@@ -61,16 +61,23 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-item :hover,
-.header-item :focus {
+.list .link-decoration:hover,
+.list .link-decoration:focus {
+  color: var(--focus-hover-color);
+}
+.list .link-decoration:active {
   color: var(--focus-hover-color);
 }
 
 .contacts-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--contact-list-color);
 }
 .contacts-list :hover,
-.contacts-list :focus {
+.contacts-list:focus {
   color: var(--focus-hover-color);
 }
 
@@ -93,8 +100,13 @@ body {
   background-color: var(--btn-background-color);
 }
 
+.hero .button {
+  border-style: none;
+  cursor: pointer;
+}
+
 .hero .button:focus {
-  color: var(--focus-hover-color);
+  background-color: var(--focus-hover-color);
 }
 /* -----------MAIN------------*/
 .hero .title {
@@ -152,23 +164,23 @@ body {
 
 /* -----------PORTFOLIO------------*/
 
-.filtr-portfolio .button {
+.filtr-portfolio .button-portfolio {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: var(--third-text-color);
+  color: var(--body-text-color);
   background-color: var(--btn-portfolio-background-color);
 }
 
-.filtr-portfolio .button:hover,
-.filtr-portfolio .button:focus {
+.button-portfolio:hover,
+.button-portfolio:focus {
   color: var(--btn-text-color);
   background-color: var(--focus-hover-color);
 }
 
-.button {
+.button-portfolio {
   border-style: none;
   cursor: pointer;
 }
@@ -218,6 +230,6 @@ body {
 }
 
 .footer-contacts-list :hover,
-.footer-contacts-list :focus {
+.footer-contacts-list:focus {
   color: var(--focus-hover-color);
 }
