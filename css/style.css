@@ -180,7 +180,7 @@ body {
   color: var(--btn-text-color);
   background-color: var(--focus-hover-color);
 }
-.button-portfolio .current2 {
+.filtr-portfolio .btn-active {
   color: var(--btn-text-color);
   background-color: var(--focus-hover-color);
 }
