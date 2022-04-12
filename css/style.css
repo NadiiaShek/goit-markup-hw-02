@@ -10,6 +10,7 @@
   --our-team-background-color: #f5f4fa;
   --btn-text-color: #ffffff;
   --btn-background-color: #2196f3;
+  --btn-background-color2: #188ce8;
   --btn-portfolio-background-color: #f5f4fa;
   --current-color: #2196f3;
 }
@@ -104,9 +105,9 @@ body {
   border-style: none;
   cursor: pointer;
 }
-
+.hero .button:hover,
 .hero .button:focus {
-  background-color: var(--focus-hover-color);
+  background-color: var(--btn-background-color2);
 }
 /* -----------MAIN------------*/
 .hero .title {
