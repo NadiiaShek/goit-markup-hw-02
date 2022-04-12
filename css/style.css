@@ -65,7 +65,7 @@ body {
 .list .link-decoration:focus {
   color: var(--focus-hover-color);
 }
-.list .link-decoration:active {
+.list .link-decoration.current {
   color: var(--focus-hover-color);
 }
 
@@ -176,6 +176,10 @@ body {
 
 .button-portfolio:hover,
 .button-portfolio:focus {
+  color: var(--btn-text-color);
+  background-color: var(--focus-hover-color);
+}
+.button-portfolio .current2 {
   color: var(--btn-text-color);
   background-color: var(--focus-hover-color);
 }
